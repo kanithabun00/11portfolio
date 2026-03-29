@@ -1,0 +1,22 @@
+/* --------------------------- MAIN --------------------------- */
+section {
+    h1 {
+        padding-top: 9rem;
+    }
+    #cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#edu, #goals {
+    #cards {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+form {
+    input[type=text], [type=email], textarea {
+        width: 750px;
+    }
+}

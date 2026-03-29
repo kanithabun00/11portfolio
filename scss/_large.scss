@@ -1,0 +1,53 @@
+/* --------------------------- BODY --------------------------- */
+body {
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+/* --------------------------- NAVIGATION --------------------------- */
+#navWrapper {
+    grid-row: 1 / span 3;
+    position: relative;
+}
+
+#navWrapper::before {
+    background: $menuColor;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+
+nav {
+    margin-left: $gutter;
+    ul {
+        flex-direction: column;
+        width: 218px;
+        height: 100vh;
+        justify-content: center;
+        position: fixed;
+        li {
+            flex: none;
+        }
+        li a {
+            padding-left: 2rem;
+            border-bottom: 1px solid lighten($secondaryColor, 40%);
+            img {
+                display: none;
+            }
+            span {
+                display: block;
+            }
+        }
+        li.active a {
+            color: $primaryColor;
+            background: none;
+            font-weight: $mediumWeight;
+        }
+    }
+}
+
+/* --------------------------- MAIN --------------------------- */
+section {
+    h1 {
+        padding-top: 12rem;
+    }
+} 

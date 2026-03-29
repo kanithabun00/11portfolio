@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Single Page Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="navWrapper">
+        <nav>
+            <ul>
+                <li class="active"><a href="#about"><img src="images/about.svg"><span>About Me</span></a></li>
+                <li><a href="#edu"><img src="images/edu.svg"><span>Education</span></a></li>
+                <li><a href="#goals"><img src="images/goals.svg"><span>Career Goals</span></a></li>
+                <li><a href="#skills"><img src="images/skills.svg"><span>Skills</span></a></li>
+                <li><a href="#projects"><img src="images/projects.svg"><span>Projects</span></a></li>
+                <li><a href="#contact"><img src="images/contact.svg"><span>Contact</span></a></li>
+            </ul>
+        </nav>
+    </div> <!-- end nav wrapper -->
+
+
+    <div id="mainWrapper">
+        <main>
+            <section id="about">
+                <h1>Kanitha Bun👋</h1>
+                <p>Web Designer</p>
+            </section>
+
+            <section id="edu">
+                <h2>Education</h2>
+                <div id="cards">
+                    <div>
+                        <h3>2025 - now</h3>
+                        <p>Utah Valley University</p>
+                        <p>Bachelor Degree in Web Design & Development</p>
+                    </div>
+                    <div class="accent">
+                        <h3>2024 - 2022</h3>
+                        <p>CADT</p>
+                        <p>Associate Degree in UX/UI Design</p>
+                    </div>
+                    <div>
+                        <h3>2017 - 2015</h3>
+                        <p>SIS International School</p>
+                        <p>High School Degree</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="goals">
+                <h2>Career Goals</h2>
+                <div id="cards">
+                    <div class="accent">
+                        <h3>Create User-Centered Designs</h3>
+                        <p>Focus on designing intuitive, visually appealing websites that prioritize user experience and accessibility.</p>
+                    </div>
+                    <div>
+                        <h3>Stay Current with Industry Trends</h3>
+                        <p>Continuously learn and adapt to new tools, frameworks, and design trends in web development, which includes keeping up with emerging technologies.</p>
+                    </div>
+                    <div class="accent">
+                        <h3>Master Full-Stack Development</h3>
+                        <p>Develop strong skills in both front-end and back-end technologies so you can build complete, scalable web applications independently.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="cards">
+                    <div>
+                        <h3>UX/UI Design</h3>
+                        <img src="images/ux-ui.webp" width="400" height="300" alt="ux/ui design">
+                        <p>Design intuitive and visually engaging user interfaces that offer a smooth overall user experience.</p>
+                    </div>
+                    <div>
+                        <h3>Coding</h3>
+                        <img src="images/coding.webp" width="400" height="300" alt="coding">
+                        <p>Build responsive, high-performing websites using latest technologies, ensuring designs are functional and consistent across devices.</p>
+                    </div>
+                    <div>
+                        <h3>Illustration</h3>
+                        <img src="images/illustration.webp" width="400" height="300" alt="illustration">
+                        <p>Create custom illustrations that enhance visual storytelling and add a unique, creative touch to digital experiences.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div id="cards">
+                    <div>
+                        <h3>WingMall</h3>
+                        <img src="images/wingmall.webp" width="400" height="300" alt="wingmall">
+                        <p>Provide customers with a wide variety of food options, personalized recommendations, and convenient delivery.</p>
+                    </div>
+                    <div>
+                        <h3>Swift Aid</h3>
+                        <img src="images/swift.webp" width="400" height="300" alt="swift aid">
+                        <p>Get rescued on time during an emergency situation or make a report when you witness an accident.</p>
+                    </div>
+                    <div>
+                        <h3>HikeLike</h3>
+                        <img src="images/hike.webp" width="400" height="300" alt="hike like">
+                        <p>Allow all hiking lovers to search for the best trails, schedule, and join hikes with their friends.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <form method="GET" class="contact-form" autocomplete="on">
+                    <label><span>First Name</span><input type="text" name="fname" autocomplete="given-name" required></label>
+                    <label><span>Last Name</span><input type="text" name="lname" autocomplete="family-name" required></label>
+                    <label><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+                    <label><span>Message</span><textarea type="text" name="message"></textarea></label>
+
+                    <input type="submit" value="Send Message">
+                </form>
+
+                <h2>Email</h2>
+                <p>bunnykanitha00@gmail.com</p>
+
+                <h2 class="social">Social Media</h2>
+                <div>
+                    <a href="#"><lord-icon src="https://cdn.lordicon.com/xowsaqcr.json" trigger="hover" style="width:80px;height:80px"></lord-icon></a>
+                    <a href="#"><lord-icon src="https://cdn.lordicon.com/dbugezxr.json" trigger="hover" style="width:80px;height:80px"></lord-icon></a>
+                    <a href="#"><lord-icon src="https://cdn.lordicon.com/porsvdok.json" trigger="hover" style="width:80px;height:80px"></lord-icon></a>
+                    <a href="#"><lord-icon src="https://cdn.lordicon.com/tzdtywkz.json" trigger="hover" style="width:80px;height:80px"></lord-icon></a>
+                </div>
+            </section>
+        </main>
+    </div> <!-- end main wrapper -->
+    
+
+    <div id="footerWrapper">
+        <footer>
+            <p>Copyright &copy; Kanitha Bun &bull; All rights reserved.</p>
+        </footer>
+    </div> <!-- end footer wrapper -->
+
+    <script src="js/scripts.js"></script>
+</body>
+</html> 
