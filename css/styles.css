@@ -480,6 +480,10 @@ form input[type=submit] {
 #contact .social {
   padding-top: 2rem;
 }
+#contact .social-icon {
+  width: 80px;
+  height: 80px;
+}
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
